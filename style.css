@@ -1,0 +1,936 @@
+@font-face {
+	font-family: 'Exo_r'; 
+	src: url(fonts/Exo-Regular.ttf); 
+}
+
+@font-face {
+	font-family: 'Exo_r_i'; 
+	src: url(fonts/Exo-Italic.ttf); 
+}
+
+@font-face {
+	font-family: 'Exo_m'; 
+	src: url(fonts/Exo-Medium.ttf); 
+}
+
+@font-face {
+	font-family: 'Exo_t'; 
+	src: url(fonts/Exo-Thin.ttf); 
+}
+.body {
+
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    
+      
+}
+
+    
+      
+    /* Первая картинка*/
+        .text1{
+        font-family: 'Exo_t' ;
+        font-size: 50px;
+        color: rgb(40, 40, 40);
+        line-height: 1.25;
+        text-align: center;
+        position: absolute;
+        left: 600px;
+        top: 240.717px;
+        width: 708px;
+        height: 138px;
+        z-index: 243;
+        }
+        .logo2
+        {
+            position: absolute;
+            left: 320px;
+            top: 230px;
+            opacity:50% ;
+        }
+        .logo1
+        {
+            position: absolute;
+            left: 343px;
+            top: 225px;
+         
+        }
+
+        .rounded1{
+            font-family: 'Exo_t', sans-serif;
+            font-size: 25px;
+            color:white;
+            border-radius: 4px;
+            background-color: rgb(255, 109, 109);
+            position: absolute;
+            left: 258px;
+            top: 330px;
+            width: 190px;
+            height: 50px;
+            z-index: auto;   
+        }
+        .txt1{
+            
+            font-size: 20px;
+            font-family: 'Exo', sans-serif, bold;
+            color: rgba(27, 27, 27, 0.6);
+            line-height:4;
+            text-align: center;
+            position: absolute;
+            left: 213px;
+            top: 340px;
+            width: 300px;
+            height: 50px;
+            z-index: 245; 
+              
+              
+        }
+        /* Вторая картинка*/
+        .text2{
+            position: absolute;
+        }
+        .zagolovok1{
+           
+                font-size: 17px;
+                font-family: "Exo", sans-serif;
+                color: rgb(255, 109, 109);
+                line-height: 3.125;
+                text-align: left;
+                position: absolute;
+                left: 149.937px;
+                top: 350px;
+                width: 119px;
+                height: 13px;
+                z-index: 233;
+              
+              
+        }
+        .zagolovok2{
+            
+                font-size: 35px;
+                font-family: "Exo", sans-serif, Light 300;
+                color: rgb(40, 40, 40);
+                line-height: 1.25;
+                text-align: left;
+                position: absolute;
+                left: 149.002px;
+                top: 360px;
+                width: 532px;
+                height: 93px;
+                z-index: 232;
+              
+              
+        }
+        
+        .txt2{
+            
+                font-size: 16px;
+                font-family: "Exo", sans-serif, ExtraLight 200;
+                color: rgba(40, 40, 40, 0.659);
+                line-height: 1.625;
+                position: absolute;
+                left: 148.937px;
+                top: 480px;
+                width: 571px;
+                height: 200px;
+                z-index: 234;
+              
+              
+        }
+         /* Третья картинка*/
+         .text3{
+            position: absolute;
+        }
+         .zagolovok3{
+            
+                font-size: 16px;
+                font-family: "Exo",sans-serif, Light 300;
+                color: rgb(255, 109, 109);
+                line-height: 3.125;
+                text-align: center;
+                position: absolute;
+                left: 600px;
+                top: 150px;
+                width: 708px;
+                height: 138px;
+              
+              
+         }
+         .zagolovok4{
+            
+                font-size: 40px;
+                font-family: "Exo",sans-serif,Light 300;
+                color: rgb(40, 40, 40);
+                line-height: 1.6;
+                
+                text-align: center;
+                position: absolute;
+                left: 740px;
+                top: 190px;
+                width: 450.924px;
+                height: 29.1px;
+                z-index: 225;
+              
+              
+         }
+         .logo3{
+            position: absolute;
+            left: 320px;
+            top: 350px;
+         }
+         .logo4{
+            position: absolute;
+            left: 920px;
+            top: 350px;
+         }
+
+         .logo5{
+            position: absolute;
+            left: 1520px;
+            top: 350px;
+         }
+         .txt3{
+            
+                font-size: 28px;
+                font-family: "Exo";
+                color: rgb(40, 40, 40);
+                line-height: 2.271;
+                text-align: center;
+                position: absolute;
+                left: 140px;
+                top: 400px;
+                width: 450.177px;
+                height: 15.638px;
+                z-index: 211;
+              
+            
+         }
+         .txt4{
+            
+            
+                font-size: 20px;
+                font-family: "Exo";
+                color: rgba(40, 40, 40, 0.659);
+                line-height: 1.625;
+                text-align: center;
+                position: absolute;
+                left: 200px;
+                top: 480px;
+                width: 342px;
+                height: 70px;
+                z-index: 212; 
+     }
+     .txt5{
+            
+        font-size: 28px;
+        font-family: "Exo";
+        color: rgb(40, 40, 40);
+        line-height: 2.271;
+        text-align: center;
+        position: absolute;
+        left: 740px;
+        top: 400px;
+        width: 450.177px;
+        height: 15.638px;
+        z-index: 211;
+      
+    
+    }
+        .txt6{
+    
+    
+        font-size: 20px;
+        font-family: "Exo";
+        color: rgba(40, 40, 40, 0.659);
+        line-height: 1.625;
+        text-align: center;
+        position: absolute;
+        left: 800px;
+        top: 480px;
+        width: 342px;
+        height: 70px;
+        z-index: 212; 
+    }
+        .txt7{
+            
+        font-size: 28px;
+        font-family: "Exo";
+        color: rgb(40, 40, 40);
+        line-height: 2.271;
+        text-align: center;
+        position: absolute;
+        left: 1340px;
+        top: 400px;
+        width: 450.177px;
+        height: 15.638px;
+        z-index: 211;
+  
+
+    }
+        .txt8{
+
+
+    font-size: 20px;
+    font-family: "Exo";
+    color: rgba(40, 40, 40, 0.659);
+    line-height: 1.625;
+    text-align: center;
+    position: absolute;
+    left: 1400px;
+    top: 480px;
+    width: 342px;
+    height: 70px;
+    z-index: 212; 
+    }
+          /* Четвертая картинка*/
+        
+
+          .text4{
+            position: absolute;
+        }
+    .logo
+    { 
+        position: absolute;
+        left: 100px;
+         top: 200px;
+    }
+        .zagolovok5{
+            font-size: 20px;
+                font-family: "Exo", sans-serif, Light 300;
+                color: rgb(255, 109, 109);
+                line-height: 3.125;
+                text-align: left;
+                position: absolute;
+                left: 1240px;
+                top: 150px;
+                width: 300px;
+                height: 13px;
+                z-index: 233;
+              
+        }
+
+        .txt9{
+            
+                font-size: 40px;
+                font-family: "Exo", Light 300;
+                color: rgb(40, 40, 40);
+                line-height: 1.25;
+                text-align: left;
+                position: absolute;
+                left: 1240px;
+                top: 190px;
+                width: 600px;
+                height: 93px;
+                z-index: 162;
+              
+              
+        }
+
+        .txt10{
+            font-size: 20px;
+            font-family: "Exo";
+            color: rgba(40, 40, 40, 0.659);
+            line-height: 1.625;
+            text-align: left;
+            position: absolute;
+            left: 1240px;
+            top: 380px;
+            width: 602px;
+            height: 70px;
+            z-index: 212; 
+        }
+        
+           /* Пятая картинка*/
+           .text5{
+            position: absolute;
+        }
+        .logo15
+        {
+            position: absolute;
+            left: 270px;
+             top: 270px;
+        }
+        .zagolovok6{
+            
+                font-size: 22px;
+                font-family: "Exo";
+                color: rgb(255, 255, 255);
+                line-height: 2.271;
+                text-align: center;
+                position: absolute;
+                left: 240px;
+                top: 350px;
+                width: 150.452px;
+                height: 15.875px;
+                z-index: 175;
+
+        }
+        .zagolovok7{
+
+            
+                font-size: 16px;
+                font-family: "Exo";
+                color: rgb(255, 109, 109);
+                line-height: 3.125;
+                text-align: center;
+                position: absolute;
+                left: 240.623px;
+                top: 380px;
+                width: 150.403px;
+                height: 11.875px;
+                z-index: 176;
+              
+              
+        }
+        .txt11{
+           
+                font-size: 15px;
+                font-family: "Exo";
+                color: rgba(255, 255, 255, 0.659);
+                font-style: italic;
+                line-height: 1.625;
+                text-align: center;
+                position: absolute;
+                left: 160.65px;
+                top: 440px;
+                width: 324px;
+                height: 96px;
+                z-index: 174;
+              
+              
+        }
+
+
+        .logo16
+        {
+            position: absolute;
+            left: 920px;
+             top: 270px;
+        }
+        .zagolovok8{
+            
+            font-size: 22px;
+            font-family: "Exo";
+            color: rgb(255, 255, 255);
+            line-height: 2.271;
+            text-align: center;
+            position: absolute;
+            left: 890px;
+            top: 350px;
+            width: 150.452px;
+            height: 15.875px;
+            z-index: 175;
+
+    }
+    .zagolovok9{
+
+        
+            font-size: 16px;
+            font-family: "Exo";
+            color: rgb(255, 109, 109);
+            line-height: 3.125;
+            text-align: center;
+            position: absolute;
+            left:890px;
+            top: 380px;
+            width: 150.403px;
+            height: 11.875px;
+            z-index: 176;
+          
+          
+    }
+    .txt12{
+       
+            font-size: 15px;
+            font-family: "Exo";
+            color: rgba(255, 255, 255, 0.659);
+            font-style: italic;
+            line-height: 1.625;
+            text-align: center;
+            position: absolute;
+            left: 800px;
+            top: 440px;
+            width: 324px;
+            height: 96px;
+            z-index: 174;
+          
+          
+    }
+
+    .logo17
+        {
+            position: absolute;
+            left: 1510px;
+             top: 270px;
+        }
+    .zagolovok10{
+            
+        font-size: 22px;
+        font-family: "Exo";
+        color: rgb(255, 255, 255);
+        line-height: 2.271;
+        text-align: center;
+        position: absolute;
+        left: 1480px;
+        top: 350px;
+        width: 150.452px;
+        height: 15.875px;
+        z-index: 175;
+
+}
+.zagolovok11{
+
+    
+        font-size: 16px;
+        font-family: "Exo";
+        color: rgb(255, 109, 109);
+        line-height: 3.125;
+        text-align: center;
+        position: absolute;
+        left:1485px;
+        top: 380px;
+        width: 150.403px;
+        height: 11.875px;
+        z-index: 176;
+      
+      
+}
+.txt13{
+   
+        font-size: 15px;
+        font-family: "Exo";
+        color: rgba(255, 255, 255, 0.659);
+        font-style: italic;
+        line-height: 1.625;
+        text-align: center;
+        position: absolute;
+        left: 1400px;
+        top: 440px;
+        width: 324px;
+        height: 96px;
+        z-index: 174;
+      
+      
+}
+.logo18{
+    position: absolute;
+    left: 270px;
+    top: 600px;
+
+}
+
+.logo19{
+    position: absolute;
+    left: 700px;
+    top: 600px;
+
+}
+
+.logo20{
+    position: absolute;
+    left: 1150px;
+    top: 600px;
+
+}
+
+.logo21{
+    position: absolute;
+    left: 1500px;
+    top: 600px;
+
+}
+
+
+
+        
+
+
+            /* Шестая картинка*/
+            .text6{
+                position: absolute;
+            }
+
+            .zagolovok12{
+                
+                    font-size: 22px;
+                    font-family: "Exo";
+                    color: rgb(255, 109, 109);
+                    line-height: 3.125;
+                    text-align: center;
+                
+                    position: absolute;
+                    left:890px;
+                    top: 140px;
+                    width: 135.554px;
+                    height: 10.938px;
+                    z-index: 157;
+                  
+                  
+            }
+            .zagolovok13{
+                
+                
+                
+                    font-size: 40px;
+                    font-family: "Exo";
+                    color: rgb(40, 40, 40);
+                    line-height: 1.25;
+                    text-align: center;
+                    position: absolute;
+                    left:650px;
+                    top: 150px;
+                    width: 600.924px;
+                    height: 29.1px;
+                    z-index: 156;
+  
+        }
+
+        .txt14{
+            
+                font-size: 16px;
+                font-family: "Exo";
+                color: rgba(40, 40, 40, 0.659);
+                line-height: 1.625;
+                text-align: center;
+                position: absolute;
+                left:630px;
+                top: 300px;
+                width: 647px;
+                height: 70px;
+                z-index: 154;
+              
+              
+        }
+        .logo10
+        {
+           position: absolute;
+            left: 550px;
+            top: 450px;
+        }
+/*седьмая картинка*/
+    .text7{
+        position: absolute;
+    }
+
+    .zagolovok14{
+       
+            font-size: 22px;
+            font-family: "Exo";
+            color: rgb(255, 109, 109);
+            line-height: 3.125;
+            text-align: center;
+            
+            position: absolute;
+            left: 850px;
+            top: 100.577px;
+            width: 135.554px;
+            height: 10.938px;
+            z-index: 146;
+
+    }
+
+    .zagolovok15{
+        
+            font-size: 40px;
+            font-family: "Exo_r";
+            color: rgb(255, 255, 255);
+            line-height: 1.25;
+            text-align: center;
+
+            position: absolute;
+            left: 650px;
+            top: 130.577px;
+            width: 582.929px;
+            height: 36.978px;
+            z-index: 145;
+          
+          
+    }
+    form{
+        display: flex;
+        width: 80%;
+    }
+    #fullname{
+       
+            font-size: 16px;
+            font-family: "Exo_t";
+            color: rgb(246, 245, 243);
+            line-height: 4.688;
+            text-align: left;
+            position: absolute;
+            left: 177.937px;
+            top: 4414.996px;
+            z-index: 127;
+          
+          
+            border-width: 1px;
+            border-color: rgb(255, 255, 255);
+            border-style: solid;
+            border-radius: 3px;
+            background-color: rgba(246, 245, 243, 0.2);
+            opacity: 0.502;
+            position: absolute;
+            left: 410px;
+            top: 350px;
+            width: 261px;
+            height: 47px;
+            z-index: 126;
+          
+          
+    }
+    #email{
+
+        font-size: 16px;
+        font-family: "Exo_t";
+        color: rgb(246, 245, 243);
+        line-height: 4.688;
+        text-align: left;
+        position: absolute;
+        left: 177.937px;
+        top: 4414.996px;
+        z-index: 127;
+      
+        border-width: 1px;
+            border-color: rgb(255, 255, 255);
+            border-style: solid;
+            border-radius: 3px;
+            background-color: rgba(246, 245, 243, 0.2);
+            opacity: 0.502;
+            position: absolute;
+            left: 690px;
+            top: 350px;
+            width: 261px;
+            height: 47px;
+            z-index: 126;
+    }
+    #pass{
+        font-size: 16px;
+            font-family: "Exo_t";
+            color: rgb(246, 245, 243);
+            line-height: 4.688;
+            text-align: left;
+            position: absolute;
+            left: 177.937px;
+            top: 4414.996px;
+            z-index: 127;
+          
+        border-width: 1px;
+            border-color: rgb(255, 255, 255);
+            border-style: solid;
+            border-radius: 3px;
+            background-color: rgba(246, 245, 243, 0.2);
+            opacity: 0.502;
+            position: absolute;
+            left: 970px;
+            top: 350px;
+            width: 261px;
+            height: 47px;
+            z-index: 126;
+    }
+    ::-webkit-input-placeholder {color: #ffffff;}
+    input:not(:placeholder-shown) ~ label,
+    input:focus ~ label{
+        display: flex;
+        justify-items: center;
+    }
+    form #trynow2{
+        
+        font-size: 16px;
+        font-family: "Exo_t";
+        color: rgb(246, 245, 243);
+        border-width: 1px;
+        border-color: rgb(255, 109, 109);
+        border-style: solid;
+        border-radius: 3px;
+        background-color: rgb(255, 109, 109);
+        box-shadow: 0px 3px 3px 0px rgba(14, 15, 15, 0.25);
+        opacity: 0.502;
+        position: absolute;
+        left: 1250px;
+        top: 350px;
+        width: 261px;
+        height: 47px;
+        z-index: 126;
+
+        
+    }
+
+    .zagolovok16{
+       
+            font-size: 16px;
+            font-family: "Exo";
+            color: rgb(246, 245, 243);
+            line-height: 4.688;
+            position: absolute;
+            left: 1280px;
+            top: 210px;
+            z-index: 138;
+            width: 261px;
+          
+    }
+    .logo11{
+        position: absolute;
+        left:1260px;
+        top: 270px;
+    }
+
+    .zagolovok17{
+        
+            font-size: 16px;
+            font-family: "Exo";
+            color: rgba(246, 245, 243, 0.6);
+            line-height: 4.688;
+            position: absolute;
+            left: 790px;
+            top: 450px;
+            z-index: 139;
+            width: 400px;
+          
+          
+    }
+    /*восьмая картинка*/
+    .text8{
+        position: absolute;
+       
+    }
+    
+    .zagolovok18{
+        font-size: 35px;
+        font-family: "Exo_t";
+        color: rgb(44, 47, 73);
+        line-height: 1.25;
+        
+        position: absolute;
+        left: 322.301px;
+        top: 60px;
+        z-index: 112;
+            
+}
+.zagolovok19{
+    
+        font-size: 14px;
+        font-family: "Exo_t";
+        color: rgba(40, 40, 40, 0.561);
+        line-height: 1.857;
+        text-align: left;
+        position: absolute;
+        left: 322.301px;
+        top: 160px;
+        width: 231px;
+        height: 89px;
+        z-index: 92;
+  
+}
+.zagolovok20{
+       
+    font-size: 35px;
+    font-family: "Exo_t";
+    color: rgb(44, 47, 73);
+    line-height: 1.25;
+    
+    position: absolute;
+    left: 600px;
+    top: 60px;
+    z-index: 112;
+}
+.zagolovok21{
+    font-size: 14px;
+    font-family: "Exo_t";
+    color: rgba(40, 40, 40, 0.561);
+    line-height: 1.857;
+    text-align: left;
+    position: absolute;
+    left: 600.301px;
+    top: 160px;
+    width: 231px;
+    height: 89px;
+    z-index: 92;
+}
+
+
+.zagolovok22{
+       
+    font-size: 35px;
+    font-family: "Exo_t";
+    color: rgb(44, 47, 73);
+    line-height: 1.25;
+    width: 200px;
+    position: absolute;
+    left: 800px;
+    top: 60px;
+    z-index: 112;
+}
+.zagolovok23{
+    font-size: 14px;
+    font-family: "Exo_t";
+    color: rgba(40, 40, 40, 0.561);
+    line-height: 1.857;
+    text-align: left;
+    position: absolute;
+    left: 800px;
+    top: 160px;
+    width: 231px;
+    height: 89px;
+    z-index: 92;
+}
+
+.zagolovok24{
+       
+    font-size: 35px;
+    font-family: "Exo_t";
+    color: rgb(44, 47, 73);
+    line-height: 1.25;
+    width: 300px;
+    position: absolute;
+    left: 1000px;
+    top: 82px;
+    z-index: 112;
+}
+
+#email2{
+    
+        border-width: 1px;
+        border-color: rgb(78, 78, 94);
+        border-style: solid;
+        border-radius: 3px;
+        background-color: rgba(141, 141, 141, 0.2);
+        opacity: 0.4;
+        position: absolute;
+        left: 1000px;
+        top: 190px;
+        width: 261px;
+        height: 47px;
+        z-index: 104;
+      
+    
+}
+
+#button{
+   
+   
+   
+    
+        border-width: 1px;
+        border-color: rgb(255, 109, 109);
+        border-style: solid;
+        border-radius: 3px;
+        background-color: rgb(255, 109, 109);
+        box-shadow: 0px 3px 3px 0px rgba(14, 15, 15, 0.25);
+        position: absolute;
+        left: 1219px;
+        top: 190px;
+        width: 50px;
+        height: 47px;
+        z-index: 106;
+      
+      
+
+}
+       
+  
+
+
+
+     
